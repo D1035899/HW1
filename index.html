@@ -11,18 +11,63 @@
 
 </head>
 <body>
-<h1>
-    503 Service Unavailable
-</h1>
+    <header>
+        <h1>
+            503 Service Unavailable
+        </h1>
+    </header>
+    <br>
+    <br>
 <h2>
-    There is something went wrong<br>
-    please reload the page or click the button to return home page
+    很抱歉，網頁目前無法處裡您的需求，請稍後再試<br>
+    您可以透過下列按鈕或連結來尋找相關資訊⬇️
 </h2>
 <div>
-    <img src="images/rubik's_cube.gif" alt="a rubik's cube spinning">
+    <img id = 'rubik_cube' src="images/rubik's_cube.gif" alt="a rubik's cube spinning">
+</div>
+<div>
+    <button type=button id='return_button'>
+        <img src = 'images/WCA.svg'>
+        <span>返回首頁</span>
+        <img src = 'images/WCA.svg'>
+    </button>
+</div>
+<div class = "pic">
+    <a href = "https://www.facebook.com/WorldCubeAssociation">
+    <img src = 'images/Facebook.png'>
+</div>
+<div class = "pic">
+    <a href = "https://www.facebook.com/WorldCubeAssociation">
+    <img src = 'images/Instagram.png'>
+</div>
+<div class = "pic">
+    <a href="https://github.com/thewca/worldcubeassociation.org">
+        <img id='github_icon' src="images/GitHub-Mark.png">
+
 </div>
 
-<button type=button id='return_button'>Return home page</button>
-
 <script src="main.js"></script>
+<footer  id = 'footer_bar'>
+    <div class = 'footer_menu'>
+        <div1>
+            <a href="https://www.worldcubeassociation.org/about">關於我們</a>
+        </div1>
+
+        <div2>
+            <a href="https://www.worldcubeassociation.org/faq">常見問題</a>
+        </div2>
+
+        <div3>
+            <a href="https://www.worldcubeassociation.org/contact">聯絡</a>
+        </div3>
+
+        <div4>
+            <a href="https://www.worldcubeassociation.org/privacy">隱私權</a>
+        </div4>
+
+        <div5>
+            <a href="https://www.worldcubeassociation.org/disclaimer" >免責聲明</a>
+        </div5>
+    </div>
+</footer>
 </body>
