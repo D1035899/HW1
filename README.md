@@ -43,7 +43,7 @@
 
 ## Code 講解
 
-> 其code的片段都透過註解來重點講解
+> code的介紹皆由註解來解釋
 
 ### HTML
 
@@ -99,8 +99,8 @@
   </a>
 </div>
 <div class = "pic">
-  <a href = "https://www.facebook.com/WorldCubeAssociation">
-    <img src = 'images/Instagram.png' alt = "WCA's Facebook page">
+  <a href = "https://www.instagram.com/thewcaofficial">
+    <img src = 'images/Instagram.png' alt = "WCA's Instagram page">
   </a>
 </div>
 <div class = "pic">
