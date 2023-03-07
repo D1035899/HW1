@@ -210,7 +210,6 @@ a {
 /* 調整頁尾的 <a> 被游標碰到時的顏色 */
 a:hover{
   color: #571aff;
-  cursor: pointer;
 }
 
 /* 調整網頁頁尾的背景顏色以及位置大小 */
@@ -225,6 +224,7 @@ a:hover{
 /* 調整社群連結以及頁尾連結的排列方式: inline-block 可以使其變成水平並排*/
 .footer_link ,.pic{
   display: inline-block;
+  cursor: pointer;
 }
 ```
 
