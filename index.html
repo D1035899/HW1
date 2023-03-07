@@ -1,25 +1,36 @@
 <!DOCTYPE html>
+<!-- 該網頁使用的語言 -->
 <html lang="zh-TW">
+
 <head>
+
+    <!-- 此html所使用的字元集 -->
     <meta charset="utf-8">
 
+    <!-- 視窗設定 -->
     <meta name="viewport" content="width=device-width">
 
+    <!-- 引入樣式表 -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- 標題 -->
     <title>503 Service Unavailable</title>
 
 </head>
+
 <body>
+
+    <!-- 網頁頁首 <header> -->
     <header>
         <h1>
             503 Service Unavailable
         </h1>
     </header>
+
     <br>
     <br>
 <h2>
-    很抱歉，網頁目前無法處裡您的需求，請稍後再試<br>
+    很抱歉，網頁目前無法處理您的需求，請稍後再試<br>
     您可以透過下列按鈕或連結來尋找相關資訊⬇️
 </h2>
 <div>
@@ -27,47 +38,52 @@
 </div>
 <div>
     <button type=button id='return_button'>
-        <img src = 'images/WCA.svg'>
+        <img src = 'images/WCA.svg' alt = "WCA logo">
         <span>返回首頁</span>
-        <img src = 'images/WCA.svg'>
+        <img src = 'images/WCA.svg' alt = "WCA logo">
     </button>
 </div>
 <div class = "pic">
-    <a href = "https://www.facebook.com/WorldCubeAssociation">
-    <img src = 'images/Facebook.png'>
+    <a href = "https://www.facebook.com/WorldCubeAssociation"></a>
+    <img src = 'images/Facebook.png' alt = "WCA's Instagram page">
 </div>
 <div class = "pic">
-    <a href = "https://www.facebook.com/WorldCubeAssociation">
-    <img src = 'images/Instagram.png'>
+    <a href = "https://www.facebook.com/WorldCubeAssociation"></a>
+    <img src = 'images/Instagram.png' alt = "WCA's Facebook page">
 </div>
 <div class = "pic">
-    <a href="https://github.com/thewca/worldcubeassociation.org">
-        <img id='github_icon' src="images/github-mark.png">
+    <a href="https://github.com/thewca/worldcubeassociation.org"></a>
+        <img id='github_icon' src="images/github-mark.png" alt = " WCA's web source code page">
 
 </div>
 
+<!-- main.js讓按鈕被觸發有功能 -->
 <script src="main.js"></script>
+
+<!-- 網頁頁尾 <footer> -->
+
 <footer  id = 'footer_bar'>
+    <!-- 頁尾的每個 "footer_link" <a> 來放所需要的資訊並且點擊就可進入指定的網站 -->
     <div class = 'footer_menu'>
-        <div1>
+        <div class = "footer_link">
             <a href="https://www.worldcubeassociation.org/about">關於我們</a>
-        </div1>
+        </div>
 
-        <div2>
+        <div class = "footer_link">
             <a href="https://www.worldcubeassociation.org/faq">常見問題</a>
-        </div2>
+        </div>
 
-        <div3>
+        <div class = "footer_link">
             <a href="https://www.worldcubeassociation.org/contact">聯絡</a>
-        </div3>
+        </div>
 
-        <div4>
+        <div class = "footer_link">
             <a href="https://www.worldcubeassociation.org/privacy">隱私權</a>
-        </div4>
+        </div>
 
-        <div5>
+        <div class = "footer_link">
             <a href="https://www.worldcubeassociation.org/disclaimer" >免責聲明</a>
-        </div5>
+        </div>
     </div>
 </footer>
 </body>
