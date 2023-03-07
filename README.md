@@ -94,16 +94,19 @@
   </button>
 </div>
 <div class = "pic">
-  <a href = "https://www.facebook.com/WorldCubeAssociation"></a>
-  <img src = 'images/Facebook.png' alt = "WCA's Instagram page">
+  <a href = "https://www.facebook.com/WorldCubeAssociation">
+    <img src = 'images/Facebook.png' alt = "WCA's Instagram page">
+  </a>
 </div>
 <div class = "pic">
-  <a href = "https://www.facebook.com/WorldCubeAssociation"></a>
-  <img src = 'images/Instagram.png' alt = "WCA's Facebook page">
+  <a href = "https://www.facebook.com/WorldCubeAssociation">
+    <img src = 'images/Instagram.png' alt = "WCA's Facebook page">
+  </a>
 </div>
 <div class = "pic">
-  <a href="https://github.com/thewca/worldcubeassociation.org"></a>
-  <img id='github_icon' src="images/github-mark.png" alt = " WCA's web source code page">
+  <a href="https://github.com/thewca/worldcubeassociation.org">
+    <img id='github_icon' src="images/github-mark.png" alt = " WCA's web source code page">
+  </a>
 
 </div>
 
