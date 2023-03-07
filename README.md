@@ -7,9 +7,7 @@
 
 - 目標網站: [https://www.worldcubeassociation.org/](https://www.worldcubeassociation.org/)
 - 作業網站: [https://d1035899.github.io/HW1/](https://d1035899.github.io/HW1/)
-- Code Repo:
-
-[https://github.com/D1035899/HW1](https://github.com/D1035899/HW1)
+- Code Repo: [https://github.com/D1035899/HW1](https://github.com/D1035899/HW1)
 
 ---
 
@@ -28,7 +26,7 @@
 
 ---
 
-## [設計理念]
+## 設計理念
 
 ### 目標網站介紹
 
